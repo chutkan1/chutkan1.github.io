@@ -1,0 +1,16 @@
+---
+layout: default
+title: Notes
+permalink: /notes/
+---
+
+<h1>Notes for Various Classes</h1>
+
+<div class="notes">
+  {% for note in site.notes %}
+    <article class="note">
+      <h2><a href="{{ site.baseurl }}{ note.url }}">{{ note.title }}</a></h2>
+
+    </article>
+  {% endfor %}
+</div>
