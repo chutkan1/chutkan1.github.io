@@ -1,7 +1,7 @@
 ---
-layout: notes
+layout: page
 title: Notes
 permalink: /notes/
 ---
 
-# Notes for Various Classes
+# Notes
