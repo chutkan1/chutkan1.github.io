@@ -4,4 +4,10 @@ title: Notes
 permalink: /notes/
 ---
 
-[Psych Notes 1](/_notes/2015-12-02-TestNote.md)
+{% for note in site.notes %}
+  <article class="note">
+
+    <h1><a href="{{ site.baseurl }}{{ note.url }}">{{ note.title }}</a></h1>
+
+  </article>
+{% endfor %}
