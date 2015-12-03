@@ -1,0 +1,127 @@
+body {
+  padding-top: 50px;
+}
+
+.page {
+  bottom: 0;
+  padding-top: 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: auto;
+}
+
+.mainContent {
+  padding-top: 50px;
+}
+
+.brdimg {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: 5px;
+}
+
+.page h1 {
+  font-size: 60px;
+}
+
+.page a {
+  margin-top: 50px;
+}
+
+.page-home {
+
+}
+
+.page-home button {
+  margin: auto;
+  display: block;
+}
+
+.page-about {
+  background: #E59400;
+  color: #a55400;
+}
+
+.page-contact {
+  background: #ffa6bb;
+  color: #9e0000;
+}
+
+
+
+
+/* ANIMATIONS */
+
+/* rotate and fall*/
+@keyframes rotateFall {
+  0%     { transform: rotateZ(0deg); }
+  20%    { transform: rotateZ(10deg); animation-timing-function: ease-out; }
+  40%    { transform: rotateZ(17deg); }
+  60%    { transform: rotateZ(16deg); }
+  100%   { transform: translateY(100%) rotateZ(17deg); }
+}
+
+/* slide in the dm's from the bottom */
+@keyframes slideOutLeft {
+  to { transform: translateX(-100%); }
+}
+
+/* rotate outta there */
+@keyframes rotateOutNewspaper {
+  to { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
+}
+
+/* scale up in there */
+@keyframes scaleUp {
+  from { opacity: 0.3; -webkit-transform: scale(0.8); }
+}
+
+/* slide in the dm's from the right */
+@keyframes slideInRight {
+  from { transform: translateX(100%); }
+  to   { transform: translateX(0); }
+}
+
+/* slide in the dm's from the bottom */
+@keyframes slideInUp {
+  from { translate: translateY(100%); }
+  to   { translate: translateY(0); }
+}
+
+
+/*.ng-enter {
+  animation: scaleUp 0.5s both ease-in;
+  z-index: 8888;
+}
+
+.ng-leave {
+  animation: slideOutLeft 0.5s both ease-in;
+  z-index: 9999;
+}
+*/
+
+/* HOME */
+.page-home.ng-enter {
+  animation: scaleUp 0.4s both ease-in;
+}
+.page-home.ng-leave {
+  animation: slideOutLeft 0.5s both ease-in;
+}
+
+/* ABOUT */
+.page-about.ng-enter {
+  animation: slideInRight 0.5s both ease-in;
+}
+.page-about.ng-leave {
+  animation: slideOutLeft 0.5s both ease-in;
+}
+
+/* CONTACT */
+.page-contact.ng-leave {
+  animation: slideOutLeft 0.5s both ease-in;
+}
+.page-contact.ng-enter {
+  animation: slideInRight 0.5s both ease-in;
+}
