@@ -18,7 +18,7 @@ blog.config(function($routeProvider) {
     })
 
     .when('/resume', {
-      templateUrl: 'static/resume.md',
+      templateUrl: 'page-resume.html',
       controller: 'resumeController'
     })
 
