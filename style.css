@@ -39,15 +39,9 @@ body {
   display: block;
 }
 
-.page-about {
-  background: #E59400;
-  color: #a55400;
-}
+.page-about { }
 
-.page-contact {
-  background: #ffa6bb;
-  color: #9e0000;
-}
+.page-contact { }
 
 
 
