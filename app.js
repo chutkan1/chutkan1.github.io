@@ -17,6 +17,11 @@ blog.config(function($routeProvider) {
       controller: 'aboutController'
     })
 
+    .when('/resume', {
+      templateUrl: 'static/resume.md',
+      controller: 'resumeController'
+    })
+
     // contact page
     .when('/contact', {
       templateUrl: 'page-contact.html',
@@ -39,4 +44,9 @@ blog.controller('aboutController', function($scope) {
 // contact page controller
 blog.controller('contactController', function($scope) {
   $scope.pageClass = 'page-contact';
+});
+
+// resume page controller
+blog.controller('resumeController', function($scope) {
+  $scope.pageClass = 'page-resume';
 });
