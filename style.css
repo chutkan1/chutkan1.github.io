@@ -1,7 +1,8 @@
+/* REQUIRED FOR FIXED-NAVBAR */
 body {
   padding-top: 50px;
 }
-
+/* TEMPLATE STYLES & GENERAL STYLES */
 .page {
   bottom: 0;
   padding-top: 50px;
@@ -30,6 +31,7 @@ body {
   margin-top: 50px;
 }
 
+/* HOME PAGE STYLES */
 .page-home {
 
 }
@@ -39,8 +41,13 @@ body {
   display: block;
 }
 
-.page-about { }
+/* ABOUT PAGE STYLES */
+.page-about button {
+  margin: auto;
+  display: block;
+}
 
+/* CONTACT PAGE STYLES */
 .page-contact { }
 
 
