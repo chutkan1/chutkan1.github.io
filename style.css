@@ -46,9 +46,10 @@ body {
 
 
 
-/* ANIMATIONS */
-
-/* rotate and fall*/
+/*
+========================================
+ANIMATION FUNCTIONS
+========================================
 @keyframes rotateFall {
   0%     { transform: rotateZ(0deg); }
   20%    { transform: rotateZ(10deg); animation-timing-function: ease-out; }
@@ -57,35 +58,38 @@ body {
   100%   { transform: translateY(100%) rotateZ(17deg); }
 }
 
-/* slide in the dm's from the bottom */
 @keyframes slideOutLeft {
   to { transform: translateX(-100%); }
 }
 
-/* rotate outta there */
+
 @keyframes rotateOutNewspaper {
   to { transform: translateZ(-3000px) rotateZ(360deg); opacity: 0; }
 }
 
-/* scale up in there */
+
 @keyframes scaleUp {
   from { opacity: 0.3; -webkit-transform: scale(0.8); }
 }
 
-/* slide in the dm's from the right */
 @keyframes slideInRight {
   from { transform: translateX(100%); }
   to   { transform: translateX(0); }
 }
 
-/* slide in the dm's from the bottom */
+
 @keyframes slideInUp {
   from { translate: translateY(100%); }
   to   { translate: translateY(0); }
 }
 
+*/
 
-/*.ng-enter {
+/*
+==================================
+DEFAULT ANIMATIONS
+==================================
+.ng-enter {
   animation: scaleUp 0.5s both ease-in;
   z-index: 8888;
 }
@@ -96,7 +100,11 @@ body {
 }
 */
 
-/* HOME */
+/*
+==================================
+PAGE ENTRY ANIMATIONS
+==================================
+
 .page-home.ng-enter {
   animation: scaleUp 0.4s both ease-in;
 }
@@ -104,7 +112,7 @@ body {
   animation: slideOutLeft 0.5s both ease-in;
 }
 
-/* ABOUT */
+
 .page-about.ng-enter {
   animation: slideInRight 0.5s both ease-in;
 }
@@ -112,10 +120,12 @@ body {
   animation: slideOutLeft 0.5s both ease-in;
 }
 
-/* CONTACT */
+
 .page-contact.ng-leave {
   animation: slideOutLeft 0.5s both ease-in;
 }
 .page-contact.ng-enter {
   animation: slideInRight 0.5s both ease-in;
 }
+
+*/
