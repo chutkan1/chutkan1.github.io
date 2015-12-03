@@ -3,8 +3,7 @@ title: Resume
 ---
 <h3 align='center'>**Alexander Chutkan**</h3>
 <h5 align='center' style='position:relative;bottom:20px;'>chutkan.1@osu.edu</h5>
-<h5 align='center' style='position:relative;bottom:40px;'>112 W. Woodruff Ave. - Columbus, OH - 43210</h5>
-<h5 align='center' style='position:relative;bottom:60px;'>(305)742-6954</h5>
+<h5 align='center' style='position:relative;bottom:40px;'>(305)742-6954</h5>
 
 
 ## Objective
