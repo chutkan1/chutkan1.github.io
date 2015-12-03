@@ -17,10 +17,14 @@ blog.config(function($routeProvider) {
       controller: 'aboutController'
     })
 
+    // resume page
     .when('/resume', {
       templateUrl: 'page-resume.html',
       controller: 'resumeController'
     })
+
+    // notes page
+    // TODO: NOTES PAGE
 
     // contact page
     .when('/contact', {
