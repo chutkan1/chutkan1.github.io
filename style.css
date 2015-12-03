@@ -1,7 +1,7 @@
 /* REQUIRED FOR FIXED-NAVBAR */
 body {
   padding-top: 50px;
-  width: 100%;
+  width: 98%;
 }
 /* TEMPLATE STYLES & GENERAL STYLES */
 .page {
@@ -9,7 +9,7 @@ body {
   padding-top: 50px;
   position: absolute;
   top: 0;
-  width: 100%;
+  width: 98%;
   margin: auto;
 }
 
