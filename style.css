@@ -1,6 +1,7 @@
 /* REQUIRED FOR FIXED-NAVBAR */
 body {
   padding-top: 50px;
+  width: 100%;
 }
 /* TEMPLATE STYLES & GENERAL STYLES */
 .page {
@@ -21,6 +22,11 @@ body {
   height: 50px;
   position: relative;
   bottom: 5px;
+}
+
+.imgwell img {
+  width: 100%;
+
 }
 
 .page h1 {
