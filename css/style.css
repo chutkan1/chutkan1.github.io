@@ -1,0 +1,54 @@
+body {
+  background: #7BAABE;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  line-height: .75em;
+  background: #49586E;
+}
+
+.list-item {
+  background: #3C9A9D;
+  justify-content: center;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 5%;
+  border-radius: 0.15em;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.list-item div {
+  text-align: center;
+}
+
+.list-item div img {
+  max-width: 75%;
+  margin: 0 auto;
+  max-height: 45vh;
+}
+
+.list-item div p {
+  max-height: 75%;
+  max-width: 75%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2%;
+  line-height: 1.5em;
+  font-size: 1.1em;
+  margin-bottom: 2%;
+}
